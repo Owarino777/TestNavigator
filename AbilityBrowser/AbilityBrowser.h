@@ -1,6 +1,9 @@
 #pragma once
 #include <QWidget>
 #include "AbilityModel.h"
+#include <QListView>
+#include <QPushButton>
+#include <QLabel>
 
 class AbilityBrowser : public QWidget {
     Q_OBJECT
