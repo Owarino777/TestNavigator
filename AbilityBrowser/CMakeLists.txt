@@ -11,6 +11,8 @@ add_executable(AbilityBrowser
     Ability.cpp
     AbilityModel.cpp
     AbilityBrowser.cpp
+    AbilityModel.h
+    AbilityBrowser.h
 )
 set(CMAKE_AUTOMOC ON)
 
