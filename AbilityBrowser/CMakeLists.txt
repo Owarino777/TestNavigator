@@ -12,6 +12,7 @@ add_executable(AbilityBrowser
     AbilityModel.cpp
     AbilityBrowser.cpp
 )
+set(CMAKE_AUTOMOC ON)
 
 target_include_directories(AbilityBrowser PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
